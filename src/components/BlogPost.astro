@@ -1,0 +1,36 @@
+---
+import Author from './Author.astro';
+
+export interface Props {
+	title: string;
+	description: string;
+	author: string;
+	publishDate: string;
+	cover: string;
+	heroImage: string;
+	alt: string;
+}
+
+const { title,description, author,publishDate,cover, heroImage, alt } = Astro.props;
+---
+
+<div class="layout container">
+<div class="row">
+<div class="col-md-2"></div>
+<div class="col-md-8 p-3 p-md-5">
+	<article class="content">
+		<div>
+			<header>		
+				<d class="publish-date">{publishDate}</d>
+				<h1 class="title"><a href="/">{title}</a></h1>
+					<img class="rounded cover" alt={title} loading="lazy" src={cover}/>
+				<h3 class="description">{description}</h3>
+			</header>
+			<main class="p-3">
+				<slot />
+			</main>
+		</div>
+	</article>
+</div>
+</div></div>
+

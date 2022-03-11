@@ -1,0 +1,20 @@
+---
+export interface Props {
+	post: any;
+}
+
+const { post } = Astro.props;
+---
+	
+<div class="col-md-4 p-3">
+<article class="post-preview rounded p-0">
+<a href={post.url}>
+		<img class="rounded cover" loading="lazy" src={post.cover}/>
+	<div class="p-1">
+		<h1>{post.title}</h1>
+	<d class="publish-date">{post.publishDate}</d>
+	<p>{post.description}</p>
+	</a>
+	</div>
+</article>
+</div>
