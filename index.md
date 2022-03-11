@@ -1,37 +1,81 @@
-## Welcome to GitHub Pages
+# Astro Web Blog Template themes
 
-You can use the [editor on GitHub](https://github.com/mesinkasir/astro-website-template-themes-source-code-download/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+[![Astro website template themes new modern source code](https://blogger.googleusercontent.com/img/a/AVvXsEhDOK7kRw2j0-zv7wXCcEzQnmioBla_0uYNGhNwyYkcsX6SdY37yh4bIZMCNBW3wcP_asF2UsrFcWrmoOGv241678TnYdJFpBHwE0V8c_4Kfk0DxFvoo6TCNmX7TQGnf1GM__EmdmB03yJCFs4JpwyPBu0C8Uagu3GhgJwu2rocEcgVk4FjRM9FW40NWA=s1920)](https://astroman.vercel.app/)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Build fast and modern website using astro !!
 
-### Markdown
+Recipes :
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- astro
+- bootstrap new
+- tailwind css
 
-```markdown
-Syntax highlighted code block
+documentation : [https://www.hockeycomputindo.com/2022/03/astro-website-template-free-download.html](https://www.hockeycomputindo.com/2022/03/astro-website-template-free-download.html)
 
-# Header 1
-## Header 2
-### Header 3
+demo : [https://astroman.vercel.app/](https://astroman.vercel.app/)
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+git clone https://github.com/mesinkasir/astroweb.git
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/astrobboy)
 
-### Jekyll Themes
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mesinkasir/astro-website-template-themes-source-code-download/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Features:
 
-### Support or Contact
+- ✅ SEO-friendly setup with canonical URLs and OpenGraph data
+- ✅ Full Markdown support
+- ✅ RSS 2.0 generation
+- ✅ Sitemap.xml generation
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## 🚀 Project Structure
+
+Inside of your Astro project, you'll see the following folders and files:
+
+```
+/
+├── public/
+│   ├── robots.txt
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   │   └── Tour.astro
+│   └── pages/
+│       └── index.astro
+└── package.json
+```
+
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+
+Any static assets, like images, can be placed in the `public/` directory.
+
+## 🧞 Commands
+
+All commands are run from the root of the project, from a terminal:
+
+| Command           | Action                                       |
+| :---------------- | :------------------------------------------- |
+| `npm install`     | Installs dependencies                        |
+| `npm run dev`     | Starts local dev server at `localhost:3000`  |
+| `npm run build`   | Build your production site to `./dist/`      |
+| `npm run preview` | Preview your build locally, before deploying |
+
+## 👀 Want to learn more?
+
+Feel free to check [our documentation](https://github.com/withastro/astro) or jump into our [Discord server](https://astro.build/chat).
+
+---
+
+### Buy me a coffee ☕️ ❤️ ✌🏻
+
+with moneygram or western union
+
+- BANK CENTRAL ASIA
+- ACCOUNT NO : 0181884109
+- ACCOUNT NAME : SUCI CHANIFAH
+- IBAN/SWIFT CODE : CENAIDJA
+
+---
