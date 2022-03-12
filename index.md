@@ -14,6 +14,8 @@ documentation : [https://www.hockeycomputindo.com/2022/03/astro-website-template
 
 demo : [https://astroman.vercel.app/](https://astroman.vercel.app/)
 
+video : [https://www.youtube.com/watch?v=PjAUuI21ko4](https://www.youtube.com/watch?v=PjAUuI21ko4)
+
 ```
 git clone https://github.com/mesinkasir/astroweb.git
 ```
