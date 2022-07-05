@@ -8,13 +8,22 @@ Recipes :
 
 - astro
 - bootstrap new
-- tailwind css
+- animate
 
 documentation : [https://www.hockeycomputindo.com/2022/03/astro-website-template-free-download.html](https://www.hockeycomputindo.com/2022/03/astro-website-template-free-download.html)
 
 demo : [https://astroman.vercel.app/](https://astroman.vercel.app/)
 
 video : [https://www.youtube.com/watch?v=PjAUuI21ko4](https://www.youtube.com/watch?v=PjAUuI21ko4)
+
+---
+
+### UPDATE
+
+What new ??
+
+- Splash Screen
+- Full Animate include
 
 ```
 git clone https://github.com/mesinkasir/astroweb.git

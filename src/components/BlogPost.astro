@@ -16,14 +16,13 @@ const { title,description, author,publishDate,cover, heroImage, alt } = Astro.pr
 
 <div class="layout container">
 <div class="row">
-<div class="col-md-2"></div>
-<div class="col-md-8 p-3 p-md-5">
-	<article class="content">
+<div class="col-md-8 p-3 p-md-5 offset-md-2">
+	<article class="content animate__animated animate__bounceIn">
 		<div>
 			<header>		
 				<d class="publish-date">{publishDate}</d>
-				<h1 class="title"><a href="/">{title}</a></h1>
-					<img class="rounded cover" alt={title} loading="lazy" src={cover}/>
+				<h1 class="title"><a href="/" class="text-dark">{title}</a></h1>
+					<img class="rounded img-fluid" alt={title} loading="lazy" src={cover}/>
 				<h3 class="description">{description}</h3>
 			</header>
 			<main class="p-3">

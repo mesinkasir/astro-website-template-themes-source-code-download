@@ -1,6 +1,17 @@
-	<nav class="navbar navbar-expand-lg navbar-light bg-dark p-1">
+---
+const logo = 'https://astro.build/assets/press/full-logo-dark.svg';
+const home = 'Home';
+const blog = 'Blog';
+const doc = 'Documentation';
+const contact = 'Contact';
+const homeurl = '/';
+const blogurl = '/start';
+const docurl = 'Documentation';
+const contacturl = 'https://astroman.vercel.app/contact';
+---
+	<nav class="navbar navbar-expand-lg navbar-light bg-dark p-1 animate__animated animate__flash">
   <div class="container">
-    <a class="navbar-brand text-white" href="/">	<img width="120" class="img-fluid" src="https://astro.build/assets/press/full-logo-dark.svg"/></a>
+    <a class="navbar-brand text-white" href="/">	<img width="120" class="img-fluid" src={logo}/></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-arrow-down-square-fill text-white" viewBox="0 0 16 16">
   <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5a.5.5 0 0 1 1 0z"/>
@@ -9,16 +20,22 @@
     <div class="collapse navbar-collapse  justify-content-end text-center" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link  text-white" aria-current="page" href="/">Home</a>
+          <a class="nav-link  text-white" aria-current="page" href={homeurl}>{home}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="https://www.hockeycomputindo.com/2022/03/astro-website-template-free-download.html">Documentation</a>
+          <a class="nav-link text-white" href={blogurl}>{blog}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="https://astroman.vercel.app/contact">Contact</a>
+          <a class="nav-link text-white" href="https://www.hockeycomputindo.com/2022/03/astro-website-template-free-download.html">{doc}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href={contacturl}>{contact}</a>
         </li>
         <li class="nav-item">
           <a class="btn btn-light text-dark col-12" href="https://github.com/mesinkasir/astro-website-template-themes-source-code-download"> Github</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-dark text-light col-12" href="https://www.fiverr.com/creativitas/design-your-modern-website-using-jekyll"> Hire Me</a>
         </li>
       
       </ul>

@@ -1,53 +1,35 @@
 ---
 // Component Imports
 import BaseHead from '../components/BaseHead.astro';
-import Nav from '../components/Nav.astro';
 import Cp from '../components/cps.astro';
-import BlogPostPreview from '../components/BlogPostPreview.astro';
 
-interface MarkdownFrontmatter {
-	publishDate: number;
-}
-
-// Component Script:
-// You can write any JavaScript/TypeScript that you'd like here.
-// It will run during the build, but never in the browser.
-// All variables are available to use in the HTML template below.
 let title = 'SEO Blog';
 let description = 'The perfect starter for your perfect blog build using astro.';
 let permalink = 'https://example.com/';
-
-// Data Fetching: List all Markdown posts in the repo.
-
-let allPosts = await Astro.fetchContent('./posts/*.md');
-allPosts = allPosts.sort((a, b) => new Date(b.publishDate).valueOf() - new Date(a.publishDate).valueOf());
-
-// Full Astro Component Syntax:
-// https://docs.astro.build/core-concepts/astro-components/
+const logo = 'https://astro.build/assets/press/full-logo-dark.png';
+const cover = ' https://blogger.googleusercontent.com/img/a/AVvXsEhPuSxXQSxkFi-bPHPYjl5XLn6rhUEQou8aIPS9yHjcburEuYIzBbwVm4B0xVmRNFhIllaYlmAjX8sTLOHrZuXnh24038FgRmMv3ga89Il63hnNwFq9F_ZNQ4zRP4lme8cZMyUrVXZkFwGtxh9UJS3-64DGt-wL3UUDPT15Ndk9ZjyCgNERZqxLOiYgmQ=s300';
+const button ='Start Now';
+const link = '/start';
 ---
 
 <html lang="en">
 	<head>
 		<BaseHead {title} {description} {permalink} />
-
 	</head>
 
-	<body>
-<Nav/>
+	<body class="bg-dark text-light">
 <div class="container">
-<div class="row">
-<div class="col-12 p-3 text-center">
-				<section class="intro">
-					<h1 class="latest">{title}</h1>
-					<p>{description}</p>
-				</section>
-		</div>
-			<main class="content ">
-				<section aria-label="Blog post list" class="row">
-					{allPosts.map((p) => <BlogPostPreview post={p} />)}
-				</section>
-			</main>
-		</div>
+<main class="row">
+<section class="col-md-6 offset-md-3">
+<div class="p-3 p-md-5 rounded text-center">
+<img class="img-fluid animate__animated animate__flash" alt={title} src={logo}/>
+					<h1 class="animate__lightSpeedInRight animate__animated">{title}</h1>
+					<p class="animate__lightSpeedInLeft animate__animated">{description}</p><br/>
+<img class="img-fluid animate__animated animate__flip" alt={title} src={cover}/>
+					<a href={link} class="btn btn-outline-light btn-lg col-12 mt-3 animate__animated animate__shakeX">{button}</a>
+					</div>
+		</section>
+		</main>
 		</div>
 <Cp/>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
