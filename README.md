@@ -25,6 +25,8 @@ What new ??
 - Splash Screen
 - Full Animate include
 
+---
+
 ```
 git clone https://github.com/mesinkasir/astroweb.git
 ```
