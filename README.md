@@ -31,6 +31,10 @@ What new ??
 git clone https://github.com/mesinkasir/astroweb.git
 ```
 
+---
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/62608bf7-2a02-41ae-b7a7-d5de6db2ebbf/deploy-status)](https://app.netlify.com/sites/astroboyweb/deploys)
+
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/astrobboy)
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
